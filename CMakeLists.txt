@@ -42,7 +42,13 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  Blob.msg
+  Blobs.msg
+  Contour.msg
   Contours.msg
+  Line.msg
+  Lines.msg
+  Vector2D.msg
 )
 
 ## Generate services in the 'srv' folder
